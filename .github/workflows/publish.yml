@@ -36,7 +36,7 @@ jobs:
           staging="${{matrix.asset_name}}-src"
           mkdir -p "$staging"
 
-          cp {README.md,UNLICENSE,LICENSE-MIT,THRIRDPARTY.yml} "$staging/"
+          cp {README.md,UNLICENSE,LICENSE-MIT,THIRDPARTY.yml} "$staging/"
           cp {build.rs,Cargo.toml,Cargo.lock} "$staging/"
           cp -R ./src "./$staging/src"
 
