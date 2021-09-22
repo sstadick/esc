@@ -1,0 +1,18 @@
+[package]
+name = "esc"
+version = "0.1.0"
+edition = "2018"
+authors = ["Seth Stadick <sstadick@gmail.com>"]
+license = "Unlicense/MIT"
+repository = "https://github.com/sstadick/esc"
+description = "Escape characters in strings"
+documentation = "https://docs.rs/esc"
+readme = "README.md"
+categories = ["text-processing", "command-line-interface"]
+keywords = ["text", "cli"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+snailquote = "0.3.0"
+structopt = "0.3.23"
